@@ -12,7 +12,7 @@ This stock screener will scrape data for S&P500 tickers, pull financial data fro
 * Streamlit as module and host
 * Packages: Pandas, Plotly, yFinance, Beautiful Soup
   
-## Examples
+## Example
 
-![Exmple](https://media.giphy.com/media/SpeDcZnhHAJuy2gTOQ/giphy.gif?cid=790b76112a42207a25bf6f094a4ab70cb2c37dc28d96903b&rid=giphy.gif&ct=g)
+![Exmple](https://github.com/Tomer-Porat/Stock-Screener/blob/main/Example.gif)
   
