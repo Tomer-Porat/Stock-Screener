@@ -19,9 +19,7 @@ def get_sp500_tickers():
 st.title('Stock Screener')
 ticker = st.sidebar.selectbox('Choose a S&P 500 Stock', options=get_sp500_tickers())
 info_type = st.sidebar.radio("Choose an info type",('Fundamental', 'Technical')) 
-search_button = st.sidebar.button('Search')
-if(search_button):
-    if(info_type == 'Fundamental'):
-        show_fundamental_stock_info(ticker)
-    if(info_type == 'Technical'):
-        show_technical_info(ticker)
+if(info_type == 'Fundamental'):
+    show_fundamental_stock_info(ticker)
+if(info_type == 'Technical'):
+    show_technical_info(ticker)
