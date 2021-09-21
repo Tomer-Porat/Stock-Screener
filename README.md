@@ -1,5 +1,5 @@
 # Stock-Screener
-
+<a href="https://share.streamlit.io/tomer-porat/stock-screener/main/main.py" target='_blank' > <h1> :joystick: Try Here </h1></a>
 This stock screener will scrape data for S&P500 tickers, pull financial data from Yahoo Finance API, and process stock info for fundamental and technical analysis.
 ## Features
 * Scrape stock tickers from web (For this project, the SP500 list is from wikipedia). 
